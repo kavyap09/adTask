@@ -1,0 +1,25 @@
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.comchild p{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.comlogo{
+    border:2px solid white;
+    width:150px;
+    border-radius: 20px;
+    text-align: center;
+    font-size:80px; 
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.3); /* Initial soft shadow */
+    cursor: pointer;
+}
+.comlogo:hover{
+    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.6); /* Smooth shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}

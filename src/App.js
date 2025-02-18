@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import HomeMain from './homePg/homeM';
+import  ContactPg from './contact/Contact'
+import MediaM from './mediaPg/MediaM'
+import Features from './features/Features';
+import ServiceM from './Services/ServiceM';
+import Trust from "./moreInfo/InfoMain.js";
+import Footer from './Footer/Footer';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( 
+     <>
+        <HomeMain/>
+        <MediaM/>
+        <Features/>
+        <ServiceM/>
+        <Trust/>
+        <ContactPg/>
+         <Footer/>
+     </>
+     );
 }
 
 export default App;
