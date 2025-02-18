@@ -62,8 +62,3 @@
   .shining-btn::before {
     clip-path: inset(0 0 0 0); /* Ensures it doesn't extend beyond the button */
   }
-  
-  /* Style sparkle emoji */
-  .shining-btn .sparkle {
-   color:pink;
-  }

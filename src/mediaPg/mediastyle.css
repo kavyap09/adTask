@@ -23,3 +23,6 @@
     box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.6); /* Smooth shadow on hover */
     transform: scale(1.05); /* Slight zoom effect */
 }
+/* .company-img{
+    background-image: url('/frontend/public/media/company.png');
+} */

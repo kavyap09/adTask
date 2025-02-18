@@ -5,8 +5,8 @@ function Hero() {
       <>
       <div className="container  text-center p-4" >
      <div className='col-8 m-4 m-auto mt-4' >
-     <button className="btn btn-dark shining-btn" style={{fontSize:'16px',padding:'12px'}}>
-     
+     <button className="btn btn-dark shining-btn"
+      style={{fontSize:'16px',padding:'12px'}}>
       TRANSFORM YOUR DIGITAL PRESENCE WITH AI AGENTS</button>
     <h1 className="head text-center mt-4">adTask.ai</h1>
     <p>Stop struggling with Marketing decisions .Our AI assistant analyzes your business, creates personalized strategies, and helps you execute them- all in real-time</p>

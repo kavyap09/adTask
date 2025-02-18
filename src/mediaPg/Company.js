@@ -5,7 +5,7 @@ function Company() {
        
         <div className='container'>
         <div className='row'>
-            <div className='col'>
+            <div className='col company-img'>
               <img src="/media/company.png" style={{width:'100%'}} />
             </div>
         </div>
